@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvre les favoris, les statistiques et le classement des candidats au Ballon d'Or.">
+    <title>Ballon d'Or — La course au sommet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="#" class="logo">
+            <span class="logo-icon">★</span>
+            BALLON<span class="gold">D'OR</span>
+            /* logo du site */
+        </a>
+
+        <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#candidats">Les candidats</a>
+            <a href="#classement">Classement</a>
+           
+         /* lien cliquable qui renvoie au texte qui correspond à la catégorie */
+        </nav>
+
+
+
+        <a href="#candidats" class="nav-button">Voir les favoris ↗</a>
+    </header>
+
+    <main>
+
+        <!-- Bannière principale -->
+        <section class="hero" id="accueil">
+            <div class="hero-content">
+                <p class="eyebrow">LE FOOTBALL • L'EXCELLENCE • LA LÉGENDE</p>
+            */ texte qui s'affiche en petit sur l'accueil, au dessus du titre */
+
+
+                <h1>UN SEUL TRÔNE.<br>
+                    <span>DES MILLIONS DE RÊVES.</span>
+                /* texte (titre) qui s'affiche en grand sur l'accueil */
+                </h1>
+
+                <p class="hero-description">
+                    Qui mérite de devenir le meilleur joueur du monde ?
+                    Découvre les stars qui marquent la saison et suis
+                    la course vers le Ballon d'Or.
+                /* texte qui s'affiche en petit, en desous du titre */
+
+                </p>
+
+                <a href="#candidats" class="primary-button">
+                    Découvrir les candidats <span>→</span>
+                    /* bouton cliquable qui renvoie à la catégorie candidats */
+            
+                </a>
+
+                <div class="hero-stats">
+                    <div>
+                        <strong>01</strong>
+                        <span>Un trophée mythique</span>
+                    </div>
+                    <div>
+                        <strong>∞</strong>
+                        <span>Des talents d'exception</span>
+                    </div>
+                </div>
+                /* texte en petit qui s'affiche en dessous du titre
+                
+            </div>
+
+            <div class="hero-visual">
+                <div class="gold-circle"></div>
+
+                <img
+                    src="https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1000&q=85"
+                    alt="Ballon de football sur un terrain"
+                    class="hero-image"
+                <!----> image trouvé sur internet, qui s'affiche sur l'accueil */
+                >
+
+                <div class="floating-card">
+                    <span class="floating-star">★</span>
+                    <div>
+                        <strong>LA COURSE AU SOMMET</strong>
+                        <p>Qui sera le prochain roi ?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Introduction aux candidats -->
+        <section class="candidates section" id="candidats">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">LES STARS DE LA SAISON</p>
+                    <h2>Les <span class="gold">candidats</span></h2>
+                    <p class="section-description">
+                        Les grands noms du football mondial à suivre.
+                    </p>
+                </div>
+
+                <span class="candidate-count">SÉLECTION • 2026</span>
+            </div>
+
+            <!-- Cartes des joueurs -->
+            <div class="players-grid">
+
+                <article class="player-card">
+                    <div class="player-photo">
+                        <img
+                            src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=700&q=85"
+                            alt="Illustration football pour le premier candidat"
+                            loading="lazy"
+                        >
+                        <span class="player-number">01</span>
+                        <span class="player-status">À SUIVRE</span>
+                    </div>
+
+                    <div class="player-info">
+                        <p class="player-country">🇫🇷 FRANCE</p>
+                        <h3>Kylian Mbappé</h3>
+                        <p class="player-club">Attaquant • Real Madrid</p>
+
+                        <div class="player-divider"></div>
+
+                        <div class="player-stats">
+                            <div>
+                                <strong>—</strong>
+                                <span>Buts</span>
+                            </div>
+                            <div>
+                                <strong>—</strong>
+                                <span>Passes déc.</span>
+                            </div>
+                            <div>
+                                <strong>—</strong>
+                                <span>Matchs</span>
+                            </div>
+                        </div>
+
+                        <p class="stats-note">
+                            Statistiques à actualiser
+                        </p>
+                    </div>
+                </article>
+
+                <article class="player-card">
+                    <div class="player-photo">
+                        <img
+                            src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=700&q=85"
+                            alt="Illustration d'un terrain de football pour le deuxième candidat"
+                            loading="lazy"
+                        >
+                        <span class="player-number">02</span>
+                        <span class="player-status">À SUIVRE</span>
+                    </div>
+
+                    <div class="player-info">
+                        <p class="player-country">🇪🇸 ESPAGNE</p>
+                        <h3>Lamine Yamal</h3>
+                        <p class="player-club">Ailier • FC Barcelone</p>
+
+                        <div class="player-divider"></div>
+
+                        <div class="player-stats">
+                            <div>
+                                <strong>—</strong>
+                                <span>Buts</span>
+                            </div>
+                            <div>
+                                <strong>—</strong>
+                                <span>Passes déc.</span>
+                            </div>
+                            <div>
+                                <strong>—</strong>
+                                <span>Matchs</span>
+                            </div>
+                        </div>
+
+                        <p class="stats-note">
+                            Statistiques à actualiser
+                        </p>
+                    </div>
+                </article>
+
+                <article class="player-card">
+                    <div class="player-photo">
+                        <img
+                            src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=700&q=85"
+                            alt="Illustration football pour le troisième candidat"
+                            loading="lazy"
+                        >
+                        <span class="player-number">03</span>
+                        <span class="player-status">À SUIVRE</span>
+                    </div>
+
+                    <div class="player-info">
+                        <p class="player-country">🇧🇷 BRÉSIL</p>
+                        <h3>Vinícius Júnior</h3>
+                        <p class="player-club">Ailier • Real Madrid</p>
+
+                        <div class="player-divider"></div>
+
+                        <div class="player-stats">
+                            <div>
+                                <strong>—</strong>
+                                <span>Buts</span>
+                            </div>
+                            <div>
+                                <strong>—</strong>
+                                <span>Passes déc.</span>
+                            </div>
+                            <div>
+                                <strong>—</strong>
+                                <span>Matchs</span>
+                            </div>
+                        </div>
+
+                        <p class="stats-note">
+                            Statistiques à actualiser
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Classement -->
+        <section class="ranking-section section" id="classement">
+            <div class="ranking-header">
+                <div>
+                    <p class="eyebrow">LA COURSE AU TROPHÉE</p>
+                    <h2>Le classement <span class="gold">des favoris</span></h2>
+                </div>
+
+                <span class="ranking-badge">À PERSONNALISER</span>
+            </div>
+
+            <div class="ranking-table">
+                <div class="ranking-row ranking-table-head">
+                    <span>RANG</span>
+                    <span>JOUEUR</span>
+                    <span>CLUB</span>
+                    <span>STATUT</span>
+                </div>
+
+                <div class="ranking-row">
+                    <span class="rank gold">01</span>
+                    <span class="rank-player">Kylian Mbappé</span>
+                    <span class="rank-club">Real Madrid</span>
+                    <span class="rank-tag">Candidat</span>
+                </div>
+
+                <div class="ranking-row">
+                    <span class="rank gold">02</span>
+                    <span class="rank-player">Lamine Yamal</span>
+                    <span class="rank-club">FC Barcelone</span>
+                    <span class="rank-tag">Candidat</span>
+                </div>
+
+                <div class="ranking-row">
+                    <span class="rank gold">03</span>
+                    <span class="rank-player">Vinícius Júnior</span>
+                    <span class="rank-club">Real Madrid</span>
+                    <span class="rank-tag">Candidat</span>
+                </div>
+            </div>
+
+            <p class="ranking-note">
+                Ce classement est une maquette éditoriale, pas un classement
+                officiel. Les rangs et les statistiques sont à mettre à jour
+                selon les performances de la saison.
+            </p>
+        </section>
+
+        <!-- Appel à l'action -->
+        <section class="cta-section">
+            <p class="eyebrow">LA LÉGENDE S'ÉCRIT MAINTENANT</p>
+            <h2>Le prochain Ballon d'Or<br>
+                <span class="gold">se joue aujourd'hui.</span>
+            </h2>
+            <a href="#candidats" class="primary-button">
+                Suivre les candidats →
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="footer">
+        <a href="#accueil" class="logo">
+            <span class="logo-icon">★</span>
+            BALLON<span class="gold">D'OR</span>
+        </a>
+
+        <p>Un site de passionnés, pour les passionnés de football.</p>
+
+        <span class="copyright">© 2026 • Projet personnel</span>
+    </footer>
+
+</body>
+</html>
