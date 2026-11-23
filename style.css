@@ -14,6 +14,7 @@
     --text: #f5f5f5;
     --muted: #92959e;
     --border: rgba(255, 255, 255, 0.09);
+    /* couleurs principales du site */
 }
 
 * {
@@ -65,6 +66,7 @@ img {
     gap: 25px;
     border-bottom: 1px solid var(--border);
     background: rgba(11, 12, 15, 0.95);
+    /* liens de navigation en haut de la page "accueil, les candidats et classement */
 }
 
 .logo {
@@ -75,12 +77,14 @@ img {
     font-weight: 800;
     letter-spacing: -1px;
     white-space: nowrap;
+    /* logo du site */
 }
 
 .logo-icon {
     color: var(--gold);
     font-size: 25px;
     margin-right: 4px;
+    /* couleur du logo du site */
 }
 
 .navbar nav {
@@ -93,6 +97,7 @@ img {
     font-size: 13px;
     color: #c0c1c6;
     transition: color 0.3s ease;
+    /* couleur des liens de navigation */
 }
 
 .navbar nav a:hover {
